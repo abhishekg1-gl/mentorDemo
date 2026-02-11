@@ -6,27 +6,22 @@ You are mentoring a junior developer building a feature in an OpenForum applicat
 - One model: User
 - Basic React app frontend
 
-## Task 1: Backend - Create and Fetch Posts
+## Task 1: Backend - Fetch Posts
 
-Implement APIs that allow a user to create a new post and to fetch all existing posts. Use Github Copilot to:
+Implement APIs that allow a user to fetch all existing posts. Use Github Copilot to:
 - Build the required DB models and populate them with dummy data.
 - Create controller logic
 - Add routes
 
 ## Task 2: Frontend - Consume the API
 
-Implement a minimalist forum-style feed. Create React components to display the list of all posts and to allow a user to create a new post. Do not use Redux for state management here. Use Github Copilot to:
+Implement a minimalist forum-style feed. Create React components to display the list of all posts. Do not use Redux for state management here. Use Github Copilot to:
 - Plan out the components needed
 - Build routing logic using React Router
 
 **Home page** - Display all posts
-**Create Posts page** - Allow users to create new posts
 
-## Task 3: Refactor with Copilot
+## Task 3: Test and Document the code
 
-Re-implement the frontend state to use Redux. If necessary, use Github copilot to do any further refactoring of the existing code.
-
-## Task 4: Test and Document the code
-
-Generate unit tests for the controller that creates Posts. Use Vitest for testing.
+Generate unit tests for the controller to  fetch all Posts. Use Vitest for testing.
 Create a README.md file for the project. Amongst other things, it should clearly document the APIs implemented.
